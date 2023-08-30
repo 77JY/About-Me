@@ -1,0 +1,201 @@
+body {
+  margin: 0px;
+  margin-left: 300px;
+  overflow-x: hidden;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+#header {
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  min-height: 750px;
+  left: 0px;
+}
+
+.hd-profile-box {
+  height: 370px;
+  background-color: rgba(99, 174, 240, 0.829);
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+.hd-MyPicture {
+  width: 150px;
+  height: 150px;
+}
+
+.hd-MyPicture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid rgb(144, 192, 255);
+}
+
+.hd-MyName {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.forme {
+  border: 1px solid rgba(112, 112, 112, 0.637);
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+  background-color: #e9f5f8;
+  text-align: center;
+}
+
+.hd-moveBtn {
+  height: 220px;
+  padding-top: 40px;
+  background-color: rgba(106, 185, 190, 0.363);
+}
+.move {
+  padding: 15px;
+  font-size: 22px;
+  background-color: rgba(63, 239, 252, 0);
+}
+
+button {
+  border-style: none;
+  cursor: pointer;
+  background-color: rgba(63, 239, 252, 0);
+  width: 300px;
+}
+
+.move:hover {
+  color: rgb(129, 128, 128);
+}
+
+.hd-Link {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.hd-Link img {
+  height: 100%;
+}
+
+.container {
+  flex-direction: column;
+  overflow: hidden auto;
+  scroll-snap-type: y mandatory;
+}
+
+.motive-box {
+  padding: 25px;
+  font-size: 25px;
+}
+.Box {
+  height: 100vh;
+  width: 100%;
+  min-height: 650px;
+}
+.motive {
+  background-color: rgba(202, 177, 209, 0.397);
+}
+.course {
+  background-color: rgb(201, 224, 190);
+}
+.img_Box {
+  padding: 15px;
+  display: block;
+}
+.Pgm_box {
+  border: 0px;
+  height: 100px;
+  display: flex;
+  padding: 15px;
+}
+
+.Pgm_box_reverse {
+  border: 0px;
+  height: 100px;
+  display: flex;
+  padding: 15px;
+  justify-content: end;
+}
+.gif {
+  display: flex;
+  justify-content: end;
+}
+.gif img {
+  border-radius: 15px;
+  height: 90px;
+}
+.pics_imgbox {
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pics_img {
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+.pics_img img {
+  width: 100px;
+  height: 100px;
+}
+
+.box_main {
+  background-color: rgb(93, 145, 61);
+}
+
+.chat {
+  position: relative;
+  width: auto;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 15px 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.12);
+}
+.chat_reverse {
+  position: relative;
+  width: auto;
+  height: 70px;
+  background: #ffee00;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 15px 20px;
+  overflow: hidden;
+  box-shadow: -10px 10px 11px 0px rgba(0, 0, 0, 0.12);
+  max-width: 600px;
+}
+.chat_tail {
+  margin-left: 15px;
+  margin-top: 45px;
+  border-top: 15px solid #ffffff;
+  border-left: 16px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+.chat_tail-reverse {
+  margin-top: 45px;
+  border-top: 15px solid #ffee00;
+  border-right: 16px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+.last-img {
+  width: 100%;
+  height: 100%;
+}

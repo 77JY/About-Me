@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <title>scroll event</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="hd-profile-box">
+        <div class="hd-MyPicture">
+          <img src="img/profile.jpg" alt="my-picture" />
+          <div class="hd-MyName">박주영 <br /></div>
+          <div>28세 / 경북 구미 거주</div>
+          <div class="forme">내가 즐겁지 않으면 남을 즐겁게 해 줄 수 없다</div>
+        </div>
+      </div>
+      <div class="hd-moveBtn">
+        <button class="move" value="0">동 기</button>
+        <button class="move" value="1">과 정</button>
+        <button class="move" value="2">의 지</button>
+      </div>
+      <div class="hd-Link">
+        <a href="https://nomadcoders.co/users/sun-now" target="_blank"
+          ><img src="img/nomad.png" alt=""
+        /></a>
+      </div>
+    </div>
+    <div id="Container">
+      <div class="Box motive">
+        <div class="motive-box">
+          <div class="Pgm_box motives">
+            <div class="chat_tail"></div>
+            <div class="chat">일을 내려놓고 개발자를 하게 된 계기는?</div>
+          </div>
+          <div class="Pgm_box_reverse motives">
+            <div class="chat_reverse chats" value="t0"></div>
+            <div class="chat_tail-reverse"></div>
+          </div>
+          <div class="Pgm_box motives">
+            <div class="chat_tail"></div>
+            <div class="chat chats" value="t1"></div>
+          </div>
+          <div class="Pgm_box_reverse motives">
+            <div class="chat_reverse chats" value="t2"></div>
+            <div class="chat_tail-reverse"></div>
+          </div>
+        </div>
+      </div>
+      <div class="Box pics course">
+        <div class="img_Box">
+          <div class="Pgm_box">
+            <div class="pics_imgbox">
+              <button class="pics_img" value="c">
+                <img src="img/0.png" alt="" />
+              </button>
+            </div>
+            <div class="chat_tail"></div>
+            <div class="chat c"></div>
+          </div>
+          <div class="Pgm_box">
+            <div class="pics_imgbox">
+              <button class="pics_img" value="js">
+                <img src="img/1.png" alt="" />
+              </button>
+            </div>
+            <div class="chat_tail"></div>
+            <div class="chat js"></div>
+          </div>
+          <div class="Pgm_box">
+            <div class="pics_imgbox">
+              <button class="pics_img" value="python">
+                <img src="img/2.png" alt="" />
+              </button>
+            </div>
+            <div class="chat_tail"></div>
+            <div class="chat python"></div>
+          </div>
+          <div class="Pgm_box">
+            <div class="pics_imgbox">
+              <button class="pics_img" value="nodejs">
+                <img src="img/3.png" alt="" />
+              </button>
+            </div>
+            <div class="chat_tail"></div>
+            <div class="chat nodejs"></div>
+          </div>
+          <div class="gif"><img src="img/mycode.gif" alt="" /></div>
+        </div>
+      </div>
+      <div class="Box box_main">
+        <img src="/img/gogo.png" alt="" class="last-img" />
+      </div>
+    </div>
+  </body>
+  <script src="src/header.js"></script>
+  <script src="src/page_three.js"></script>
+  <script src="src/motive.js"></script>
+</html>
